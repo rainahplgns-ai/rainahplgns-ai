@@ -1,0 +1,38 @@
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final project.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.MainForm.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final project.csproj.GenerateResource.Cache
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\bin\Debug\final project.exe
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\bin\Debug\final project.pdb
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final project.exe
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final project.pdb
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.Games.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.Form1.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.credits.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.game1.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.game2.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.game3.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.game4.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.picturepalette.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.wordpuzzle.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.musickeys.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.pick_avatar.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.profile.resources
+C:\Users\pc\Documents\SharpDevelop Projects\final project\final project\obj\Debug\final_project.guessnsave.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final project.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.game1.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.game2.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.game3.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.game4.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.Games.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.guessnsave.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.MainForm.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.musickeys.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.pick_avatar.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.picturepalette.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.profile.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.wordpuzzle.resources
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final project.csproj.GenerateResource.Cache
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final project.exe
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\bin\Debug\final project.exe
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\bin\Debug\final project.pdb
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final project.pdb

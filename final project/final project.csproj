@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{4CF9FBD1-5D68-42F8-B343-A2555901FCA4}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>final_project</RootNamespace>
+    <AssemblyName>final project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="game1.cs" />
+    <Compile Include="game1.Designer.cs" />
+    <Compile Include="game2.cs" />
+    <Compile Include="game2.Designer.cs" />
+    <Compile Include="game3.cs" />
+    <Compile Include="game3.Designer.cs" />
+    <Compile Include="game4.cs" />
+    <Compile Include="game4.Designer.cs" />
+    <Compile Include="Games.cs" />
+    <Compile Include="Games.Designer.cs" />
+    <Compile Include="art_hunt.cs" />
+    <Compile Include="guessnsave.Designer.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musickeys.cs" />
+    <Compile Include="musickeys.Designer.cs" />
+    <Compile Include="pick_avatar.cs" />
+    <Compile Include="pick_avatar.Designer.cs">
+      <DependentUpon>pick_avatar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picturepalette.cs" />
+    <Compile Include="picturepalette.Designer.cs" />
+    <Compile Include="profile.cs" />
+    <Compile Include="profile.Designer.cs">
+      <DependentUpon>profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="profileData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wordpuzzle.cs" />
+    <Compile Include="wordpuzzle.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="game1.resx">
+      <DependentUpon>game1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game2.resx">
+      <DependentUpon>game2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game3.resx">
+      <DependentUpon>game3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game4.resx">
+      <DependentUpon>game4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Games.resx">
+      <DependentUpon>Games.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="art_hunt.resx">
+      <DependentUpon>art_hunt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musickeys.resx">
+      <DependentUpon>musickeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pick_avatar.resx">
+      <DependentUpon>pick_avatar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picturepalette.resx">
+      <DependentUpon>picturepalette.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile.resx">
+      <DependentUpon>profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wordpuzzle.resx">
+      <DependentUpon>wordpuzzle.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj" />
+    <Folder Include="obj\Debug" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\12.png" />
+    <None Include="obj\Debug\back.png" />
+    <None Include="obj\Debug\bg.jpg" />
+    <None Include="obj\Debug\bg.png" />
+    <None Include="obj\Debug\bgmusic.wav" />
+    <None Include="obj\Debug\continue.png" />
+    <None Include="obj\Debug\dateam.png" />
+    <None Include="obj\Debug\game1.png" />
+    <None Include="obj\Debug\game1bg.png" />
+    <None Include="obj\Debug\game2.png" />
+    <None Include="obj\Debug\game2bg.png" />
+    <None Include="obj\Debug\game3.png" />
+    <None Include="obj\Debug\game4.png" />
+    <None Include="obj\Debug\games.png" />
+    <None Include="obj\Debug\insback.png" />
+    <None Include="obj\Debug\inspic.png" />
+    <None Include="obj\Debug\ito na.jpg" />
+    <None Include="obj\Debug\MOPB Game.exe" />
+    <None Include="obj\Debug\MOPB Game.pdb" />
+    <None Include="obj\Debug\next.png" />
+    <None Include="obj\Debug\pianobg.png" />
+    <None Include="obj\Debug\play.png" />
+    <None Include="obj\Debug\settingsbg.png" />
+    <None Include="obj\Debug\start.png" />
+    <None Include="obj\Debug\team.png" />
+    <None Include="obj\Debug\try.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

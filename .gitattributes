@@ -1,0 +1,4 @@
+final[[:space:]]project/\#0/bgmusic.wav filter=lfs diff=lfs merge=lfs -text
+final[[:space:]]project/bin/Debug/final[[:space:]]project.exe filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
