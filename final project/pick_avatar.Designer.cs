@@ -135,30 +135,30 @@ namespace final_project
 			this.panel5.Controls.Add(this.pic_avatar);
 			this.panel5.Controls.Add(this.save_input);
 			this.panel5.Controls.Add(this.players_name);
-			this.panel5.Location = new System.Drawing.Point(651, 23);
+			this.panel5.Location = new System.Drawing.Point(201, 77);
 			this.panel5.Name = "panel5";
-			this.panel5.Size = new System.Drawing.Size(248, 356);
+			this.panel5.Size = new System.Drawing.Size(532, 394);
 			this.panel5.TabIndex = 11;
 			// 
 			// label2
 			// 
-			this.label2.AutoSize = true;
 			this.label2.BackColor = System.Drawing.Color.Transparent;
 			this.label2.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.ForeColor = System.Drawing.Color.White;
-			this.label2.Location = new System.Drawing.Point(27, 218);
+			this.label2.Location = new System.Drawing.Point(39, 236);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(171, 17);
+			this.label2.Size = new System.Drawing.Size(490, 29);
 			this.label2.TabIndex = 5;
 			this.label2.Text = "Name your character...";
+			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// pic_avatar
 			// 
 			this.pic_avatar.BackColor = System.Drawing.Color.Transparent;
 			this.pic_avatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.pic_avatar.Location = new System.Drawing.Point(22, 21);
+			this.pic_avatar.Location = new System.Drawing.Point(143, 21);
 			this.pic_avatar.Name = "pic_avatar";
-			this.pic_avatar.Size = new System.Drawing.Size(205, 180);
+			this.pic_avatar.Size = new System.Drawing.Size(247, 210);
 			this.pic_avatar.TabIndex = 2;
 			this.pic_avatar.TabStop = false;
 			// 
@@ -168,7 +168,7 @@ namespace final_project
 			this.save_input.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("save_input.BackgroundImage")));
 			this.save_input.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.save_input.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.save_input.Location = new System.Drawing.Point(46, 287);
+			this.save_input.Location = new System.Drawing.Point(188, 322);
 			this.save_input.Name = "save_input";
 			this.save_input.Size = new System.Drawing.Size(156, 45);
 			this.save_input.TabIndex = 1;
@@ -181,7 +181,7 @@ namespace final_project
 			this.players_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.players_name.Font = new System.Drawing.Font("Microsoft Himalaya", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.players_name.ForeColor = System.Drawing.Color.White;
-			this.players_name.Location = new System.Drawing.Point(27, 237);
+			this.players_name.Location = new System.Drawing.Point(169, 272);
 			this.players_name.Multiline = true;
 			this.players_name.Name = "players_name";
 			this.players_name.Size = new System.Drawing.Size(195, 35);

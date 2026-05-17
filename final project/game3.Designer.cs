@@ -91,6 +91,7 @@ namespace final_project
 			this.panel3.Name = "panel3";
 			this.panel3.Size = new System.Drawing.Size(231, 36);
 			this.panel3.TabIndex = 1;
+			this.panel3.Click += new System.EventHandler(this.Panel3Click);
 			// 
 			// panel2
 			// 
@@ -124,6 +125,7 @@ namespace final_project
 			this.pictureBox1.Size = new System.Drawing.Size(131, 54);
 			this.pictureBox1.TabIndex = 19;
 			this.pictureBox1.TabStop = false;
+			this.pictureBox1.Click += new System.EventHandler(this.PictureBox1Click);
 			// 
 			// game3
 			// 

@@ -44,8 +44,8 @@ namespace final_project
         
         void PictureBox4Click(object sender, EventArgs e)
         {
-            game4 g4 = new game4();
-            g4.Show();
+            game3 g3 = new game3();
+            g3.Show();
             this.Hide();
         }
         

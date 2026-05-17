@@ -36,3 +36,4 @@ C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debu
 C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\bin\Debug\final project.exe
 C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\bin\Debug\final project.pdb
 C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final project.pdb
+C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\obj\Debug\final_project.ah.resources

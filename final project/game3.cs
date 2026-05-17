@@ -30,8 +30,8 @@ namespace final_project
 		
 		void Panel3Click(object sender, EventArgs e)
 		{
-			picturepalette pp = new picturepalette();
-			pp.Show();
+			ah a = new ah();
+			a.Show();
 			this.Hide();
 		}
 		

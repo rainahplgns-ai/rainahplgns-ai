@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.IO; // Idinagdag para sa Path at File handling
 using System.Windows.Forms;
 
 namespace final_project
@@ -71,39 +72,57 @@ namespace final_project
         {
             selectedAvatarImage = imageName;
             
-            // Inayos: Ginawang stretch ang mode bago i-load ang picture
+            // INAYOS: Kailangang ipakita ang panel5 at itago ang ibang panels para lumitaw ang input screen!
+            panel5.Visible = true;
+            panel1.Visible = false;
+            panel2.Visible = false;
+            panel3.Visible = false;
+            panel4.Visible = false;
+            
             pic_avatar.SizeMode = PictureBoxSizeMode.StretchImage;
             
-            // BAGONG CODE: Hahanapin ang folder na #0 nang hindi mo kailangang ilipat ang mga file
+            // Hahanapin ang folder na #0 nang hindi mo kailangang ilipat ang mga file
             string projectFolder = System.IO.Path.Combine(Application.StartupPath, @"..\..\#0");
             string fullPath = System.IO.Path.Combine(projectFolder, imageName);
             
-            pic_avatar.Image = Image.FromFile(fullPath); 
+            if (File.Exists(fullPath))
+            {
+                pic_avatar.Image = Image.FromFile(fullPath); 
+            }
+            else
+            {
+                MessageBox.Show("Hindi mahanap ang larawan sa: " + fullPath);
+            }
             
             label1.Visible = false;
-        } // Dagdag: Closing curly brace para sa method
+        }
 
 
         // Click event para sa iyong save_input (Save Button)
         void Save_inputClick(object sender, EventArgs e)
         {
             // Kukunin ang text mula sa iyong 'players_name' textbox
+            
             string playerNamit = players_name.Text;
 
-            // Pagsuri kung walang nailagay na teksto (Tinanggal din ang space gamit ang Trim)
-            if (string.IsNullOrEmpty(playerNamit.Trim()))
-            {
-                MessageBox.Show("Please enter your name so that we know what to call you:)");
-                return;
-            }
-            
-            profileData.PlayerName = playerNamit;
-            profileData.AvatarPath = selectedAvatarImage;
-
-            Games g = new Games(orihinalNaMainForm);
-            g.Show();
-            
-            this.Close(); 
+			if (string.IsNullOrEmpty(playerNamit.Trim()))
+			{
+			    label2.Text = "Please enter your name so that we know what to call you:)";
+			    label2.ForeColor = Color.Red; 
+			    label2.Visible = true;        
+			    return;
+			}
+			
+			label2.Text = "Welcome!";
+			
+			profileData.PlayerName = playerNamit;
+			profileData.AvatarPath = selectedAvatarImage;
+			
+			Games g = new Games(orihinalNaMainForm);
+			g.Show();
+			
+			this.Close();
+			
         }
-    }
+    } 
 }
