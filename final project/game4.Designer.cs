@@ -58,6 +58,7 @@ namespace final_project
 			this.panel4.Name = "panel4";
 			this.panel4.Size = new System.Drawing.Size(231, 36);
 			this.panel4.TabIndex = 2;
+			this.panel4.Click += new System.EventHandler(this.Panel4Click);
 			// 
 			// label3
 			// 
@@ -92,6 +93,7 @@ namespace final_project
 			this.panel3.Name = "panel3";
 			this.panel3.Size = new System.Drawing.Size(231, 36);
 			this.panel3.TabIndex = 1;
+			this.panel3.Click += new System.EventHandler(this.Panel3Click);
 			// 
 			// panel2
 			// 
@@ -113,6 +115,7 @@ namespace final_project
 			this.pictureBox5.Size = new System.Drawing.Size(131, 54);
 			this.pictureBox5.TabIndex = 21;
 			this.pictureBox5.TabStop = false;
+			this.pictureBox5.Click += new System.EventHandler(this.PictureBox5Click);
 			// 
 			// pictureBox1
 			// 
@@ -124,6 +127,7 @@ namespace final_project
 			this.pictureBox1.Size = new System.Drawing.Size(131, 54);
 			this.pictureBox1.TabIndex = 22;
 			this.pictureBox1.TabStop = false;
+			this.pictureBox1.Click += new System.EventHandler(this.PictureBox1Click);
 			// 
 			// game4
 			// 
@@ -135,6 +139,7 @@ namespace final_project
 			this.Controls.Add(this.game1_ins);
 			this.Controls.Add(this.pictureBox5);
 			this.Controls.Add(this.pictureBox1);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "game4";
 			this.Text = "game4";
 			this.game1_ins.ResumeLayout(false);

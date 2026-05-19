@@ -30,7 +30,7 @@ namespace final_project
 		
 		void Panel3Click(object sender, EventArgs e)
 		{
-			wordpuzzle wp = new wordpuzzle();
+			puzzle wp = new puzzle();
 			wp.Show();
 			this.Hide();
 		}

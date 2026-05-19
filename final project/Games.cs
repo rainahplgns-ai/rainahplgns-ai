@@ -6,19 +6,15 @@ namespace final_project
 {
     public partial class Games : Form
     {
-        MainForm orihinalNaMainForm;
 
         public Games()
         {
             InitializeComponent();
-        }
-
-        public Games(MainForm galingSaMainForm)
-        {
-            InitializeComponent();
-            orihinalNaMainForm = galingSaMainForm;
-            
+        	credits_frame.Visible = false;
             settings_frame.Visible = false;
+            about_frame.Visible = false;
+
+            
         }
 
         void PictureBox1Click(object sender, EventArgs e)
@@ -49,14 +45,11 @@ namespace final_project
             this.Hide();
         }
         
-        // Babalik sa MainForm nang hindi naglo-load ulit ang Progress Bar
         void PictureBox5Click(object sender, EventArgs e)
         {
-            if (orihinalNaMainForm != null)
-            {
-                orihinalNaMainForm.Show();
-            }
-            this.Close();
+        	MainForm mf = new MainForm();
+        	mf.Show();
+        	this.Hide();
         }
 		
 
@@ -69,7 +62,6 @@ namespace final_project
 			pictureBox4.Visible = false;
 			pictureBox5.Visible = false;
 			panel1.Visible = false;
-			panel2.Visible = false;
 			settings_frame.Visible = true;
 		}
 		
@@ -82,7 +74,29 @@ namespace final_project
 			pictureBox4.Visible = true;
 			pictureBox5.Visible = true;
 			panel1.Visible = true;
-			panel2.Visible = true;
+		}
+		
+		void Panel4Click(object sender, EventArgs e)
+		{
+			credits_frame.Visible = true;
+		}
+		
+		void PictureBox6Click(object sender, EventArgs e)
+		{
+			about_frame.Visible = false;
+		}
+		
+		void Panel3Click(object sender, EventArgs e)
+		{
+			about_frame.Visible = true;
+			
+			settings_frame.Visible = false;
+			pictureBox1.Visible = false;
+			pictureBox2.Visible = false;
+			pictureBox3.Visible = false;
+			pictureBox4.Visible = false;
+			pictureBox5.Visible = false;
+			panel1.Visible = false;
 		}
     }
 }

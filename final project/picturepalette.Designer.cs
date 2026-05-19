@@ -41,23 +41,29 @@ namespace final_project
 			this.settings_icon = new System.Windows.Forms.Panel();
 			this.pictureBox5 = new System.Windows.Forms.PictureBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.label3 = new System.Windows.Forms.Label();
 			this.panel1 = new System.Windows.Forms.Panel();
-			this.label1 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
+			this.textBox5 = new System.Windows.Forms.TextBox();
+			this.textBox6 = new System.Windows.Forms.TextBox();
+			this.textBox7 = new System.Windows.Forms.TextBox();
+			this.textBox3 = new System.Windows.Forms.TextBox();
+			this.textBox4 = new System.Windows.Forms.TextBox();
+			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.panel2 = new System.Windows.Forms.Panel();
-			this.label6 = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
-			this.label9 = new System.Windows.Forms.Label();
-			this.label10 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
-			this.label12 = new System.Windows.Forms.Label();
-			this.label13 = new System.Windows.Forms.Label();
-			this.label14 = new System.Windows.Forms.Label();
-			this.label15 = new System.Windows.Forms.Label();
+			this.button10 = new System.Windows.Forms.Button();
+			this.button11 = new System.Windows.Forms.Button();
+			this.button12 = new System.Windows.Forms.Button();
+			this.button13 = new System.Windows.Forms.Button();
+			this.button6 = new System.Windows.Forms.Button();
+			this.button7 = new System.Windows.Forms.Button();
+			this.button8 = new System.Windows.Forms.Button();
+			this.button9 = new System.Windows.Forms.Button();
+			this.button4 = new System.Windows.Forms.Button();
+			this.button5 = new System.Windows.Forms.Button();
+			this.button3 = new System.Windows.Forms.Button();
+			this.button2 = new System.Windows.Forms.Button();
+			this.label20 = new System.Windows.Forms.Label();
+			this.button1 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.panel1.SuspendLayout();
@@ -107,246 +113,302 @@ namespace final_project
 			this.pictureBox1.TabIndex = 71;
 			this.pictureBox1.TabStop = false;
 			// 
-			// label3
-			// 
-			this.label3.BackColor = System.Drawing.Color.DarkSlateBlue;
-			this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label3.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label3.ForeColor = System.Drawing.Color.White;
-			this.label3.Location = new System.Drawing.Point(38, 28);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(48, 45);
-			this.label3.TabIndex = 80;
-			this.label3.Text = "_";
-			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
 			// panel1
 			// 
 			this.panel1.BackColor = System.Drawing.Color.Transparent;
-			this.panel1.Controls.Add(this.label2);
-			this.panel1.Controls.Add(this.label1);
-			this.panel1.Controls.Add(this.label3);
-			this.panel1.Location = new System.Drawing.Point(604, 184);
+			this.panel1.Controls.Add(this.textBox5);
+			this.panel1.Controls.Add(this.textBox6);
+			this.panel1.Controls.Add(this.textBox7);
+			this.panel1.Controls.Add(this.textBox3);
+			this.panel1.Controls.Add(this.textBox4);
+			this.panel1.Controls.Add(this.textBox2);
+			this.panel1.Controls.Add(this.textBox1);
+			this.panel1.Location = new System.Drawing.Point(536, 196);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(233, 100);
+			this.panel1.Size = new System.Drawing.Size(362, 100);
 			this.panel1.TabIndex = 81;
 			// 
-			// label1
+			// textBox5
 			// 
-			this.label1.BackColor = System.Drawing.Color.DarkSlateBlue;
-			this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label1.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.ForeColor = System.Drawing.Color.White;
-			this.label1.Location = new System.Drawing.Point(92, 28);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(48, 45);
-			this.label1.TabIndex = 82;
-			this.label1.Text = "_";
-			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.textBox5.BackColor = System.Drawing.Color.DarkSlateBlue;
+			this.textBox5.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold);
+			this.textBox5.ForeColor = System.Drawing.Color.White;
+			this.textBox5.Location = new System.Drawing.Point(297, 32);
+			this.textBox5.Multiline = true;
+			this.textBox5.Name = "textBox5";
+			this.textBox5.Size = new System.Drawing.Size(39, 37);
+			this.textBox5.TabIndex = 92;
+			this.textBox5.Text = "__";
+			this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
-			// label2
+			// textBox6
 			// 
-			this.label2.BackColor = System.Drawing.Color.DarkSlateBlue;
-			this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label2.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.ForeColor = System.Drawing.Color.White;
-			this.label2.Location = new System.Drawing.Point(146, 28);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(48, 45);
-			this.label2.TabIndex = 83;
-			this.label2.Text = "_";
-			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.textBox6.BackColor = System.Drawing.Color.DarkSlateBlue;
+			this.textBox6.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold);
+			this.textBox6.ForeColor = System.Drawing.Color.White;
+			this.textBox6.Location = new System.Drawing.Point(252, 32);
+			this.textBox6.Multiline = true;
+			this.textBox6.Name = "textBox6";
+			this.textBox6.Size = new System.Drawing.Size(39, 37);
+			this.textBox6.TabIndex = 91;
+			this.textBox6.Text = "__";
+			this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			// 
+			// textBox7
+			// 
+			this.textBox7.BackColor = System.Drawing.Color.DarkSlateBlue;
+			this.textBox7.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold);
+			this.textBox7.ForeColor = System.Drawing.Color.White;
+			this.textBox7.Location = new System.Drawing.Point(207, 32);
+			this.textBox7.Multiline = true;
+			this.textBox7.Name = "textBox7";
+			this.textBox7.Size = new System.Drawing.Size(39, 37);
+			this.textBox7.TabIndex = 90;
+			this.textBox7.Text = "__";
+			this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			// 
+			// textBox3
+			// 
+			this.textBox3.BackColor = System.Drawing.Color.DarkSlateBlue;
+			this.textBox3.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold);
+			this.textBox3.ForeColor = System.Drawing.Color.White;
+			this.textBox3.Location = new System.Drawing.Point(162, 32);
+			this.textBox3.Multiline = true;
+			this.textBox3.Name = "textBox3";
+			this.textBox3.Size = new System.Drawing.Size(39, 37);
+			this.textBox3.TabIndex = 89;
+			this.textBox3.Text = "__";
+			this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			// 
+			// textBox4
+			// 
+			this.textBox4.BackColor = System.Drawing.Color.DarkSlateBlue;
+			this.textBox4.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold);
+			this.textBox4.ForeColor = System.Drawing.Color.White;
+			this.textBox4.Location = new System.Drawing.Point(117, 32);
+			this.textBox4.Multiline = true;
+			this.textBox4.Name = "textBox4";
+			this.textBox4.Size = new System.Drawing.Size(39, 37);
+			this.textBox4.TabIndex = 88;
+			this.textBox4.Text = "__";
+			this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			// 
+			// textBox2
+			// 
+			this.textBox2.BackColor = System.Drawing.Color.DarkSlateBlue;
+			this.textBox2.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold);
+			this.textBox2.ForeColor = System.Drawing.Color.White;
+			this.textBox2.Location = new System.Drawing.Point(72, 32);
+			this.textBox2.Multiline = true;
+			this.textBox2.Name = "textBox2";
+			this.textBox2.Size = new System.Drawing.Size(39, 37);
+			this.textBox2.TabIndex = 87;
+			this.textBox2.Text = "__";
+			this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			// 
+			// textBox1
+			// 
+			this.textBox1.BackColor = System.Drawing.Color.DarkSlateBlue;
+			this.textBox1.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold);
+			this.textBox1.ForeColor = System.Drawing.Color.White;
+			this.textBox1.Location = new System.Drawing.Point(27, 32);
+			this.textBox1.Multiline = true;
+			this.textBox1.Name = "textBox1";
+			this.textBox1.Size = new System.Drawing.Size(39, 37);
+			this.textBox1.TabIndex = 86;
+			this.textBox1.Text = "__";
+			this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
 			// panel2
 			// 
 			this.panel2.BackColor = System.Drawing.Color.Transparent;
-			this.panel2.Controls.Add(this.label10);
-			this.panel2.Controls.Add(this.label11);
-			this.panel2.Controls.Add(this.label12);
-			this.panel2.Controls.Add(this.label13);
-			this.panel2.Controls.Add(this.label14);
-			this.panel2.Controls.Add(this.label15);
-			this.panel2.Controls.Add(this.label8);
-			this.panel2.Controls.Add(this.label9);
-			this.panel2.Controls.Add(this.label5);
-			this.panel2.Controls.Add(this.label7);
-			this.panel2.Controls.Add(this.label4);
-			this.panel2.Controls.Add(this.label6);
+			this.panel2.Controls.Add(this.button10);
+			this.panel2.Controls.Add(this.button11);
+			this.panel2.Controls.Add(this.button12);
+			this.panel2.Controls.Add(this.button13);
+			this.panel2.Controls.Add(this.button6);
+			this.panel2.Controls.Add(this.button7);
+			this.panel2.Controls.Add(this.button8);
+			this.panel2.Controls.Add(this.button9);
+			this.panel2.Controls.Add(this.button4);
+			this.panel2.Controls.Add(this.button5);
+			this.panel2.Controls.Add(this.button3);
+			this.panel2.Controls.Add(this.button2);
 			this.panel2.Location = new System.Drawing.Point(536, 306);
 			this.panel2.Name = "panel2";
-			this.panel2.Size = new System.Drawing.Size(362, 180);
+			this.panel2.Size = new System.Drawing.Size(362, 127);
 			this.panel2.TabIndex = 84;
+			this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel2Paint);
 			// 
-			// label6
+			// button10
 			// 
-			this.label6.BackColor = System.Drawing.Color.DarkGreen;
-			this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label6.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label6.ForeColor = System.Drawing.Color.White;
-			this.label6.Location = new System.Drawing.Point(24, 43);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(48, 45);
-			this.label6.TabIndex = 80;
-			this.label6.Text = "A";
-			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button10.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button10.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button10.ForeColor = System.Drawing.Color.White;
+			this.button10.Location = new System.Drawing.Point(289, 67);
+			this.button10.Name = "button10";
+			this.button10.Size = new System.Drawing.Size(45, 43);
+			this.button10.TabIndex = 11;
+			this.button10.Text = "A";
+			this.button10.UseVisualStyleBackColor = false;
 			// 
-			// label4
+			// button11
 			// 
-			this.label4.BackColor = System.Drawing.Color.DarkGreen;
-			this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label4.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label4.ForeColor = System.Drawing.Color.White;
-			this.label4.Location = new System.Drawing.Point(78, 43);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(48, 45);
-			this.label4.TabIndex = 81;
-			this.label4.Text = "A";
-			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button11.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button11.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button11.ForeColor = System.Drawing.Color.White;
+			this.button11.Location = new System.Drawing.Point(237, 67);
+			this.button11.Name = "button11";
+			this.button11.Size = new System.Drawing.Size(45, 43);
+			this.button11.TabIndex = 10;
+			this.button11.Text = "A";
+			this.button11.UseVisualStyleBackColor = false;
 			// 
-			// label5
+			// button12
 			// 
-			this.label5.BackColor = System.Drawing.Color.DarkGreen;
-			this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label5.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label5.ForeColor = System.Drawing.Color.White;
-			this.label5.Location = new System.Drawing.Point(186, 43);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(48, 45);
-			this.label5.TabIndex = 83;
-			this.label5.Text = "A";
-			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button12.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button12.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button12.ForeColor = System.Drawing.Color.White;
+			this.button12.Location = new System.Drawing.Point(289, 20);
+			this.button12.Name = "button12";
+			this.button12.Size = new System.Drawing.Size(45, 43);
+			this.button12.TabIndex = 9;
+			this.button12.Text = "A";
+			this.button12.UseVisualStyleBackColor = false;
 			// 
-			// label7
+			// button13
 			// 
-			this.label7.BackColor = System.Drawing.Color.DarkGreen;
-			this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label7.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label7.ForeColor = System.Drawing.Color.White;
-			this.label7.Location = new System.Drawing.Point(132, 43);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(48, 45);
-			this.label7.TabIndex = 82;
-			this.label7.Text = "A";
-			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button13.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button13.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button13.ForeColor = System.Drawing.Color.White;
+			this.button13.Location = new System.Drawing.Point(237, 20);
+			this.button13.Name = "button13";
+			this.button13.Size = new System.Drawing.Size(45, 43);
+			this.button13.TabIndex = 8;
+			this.button13.Text = "A";
+			this.button13.UseVisualStyleBackColor = false;
 			// 
-			// label8
+			// button6
 			// 
-			this.label8.BackColor = System.Drawing.Color.DarkGreen;
-			this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label8.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label8.ForeColor = System.Drawing.Color.White;
-			this.label8.Location = new System.Drawing.Point(294, 43);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(48, 45);
-			this.label8.TabIndex = 85;
-			this.label8.Text = "A";
-			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button6.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button6.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button6.ForeColor = System.Drawing.Color.White;
+			this.button6.Location = new System.Drawing.Point(185, 67);
+			this.button6.Name = "button6";
+			this.button6.Size = new System.Drawing.Size(45, 43);
+			this.button6.TabIndex = 7;
+			this.button6.Text = "A";
+			this.button6.UseVisualStyleBackColor = false;
 			// 
-			// label9
+			// button7
 			// 
-			this.label9.BackColor = System.Drawing.Color.DarkGreen;
-			this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label9.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label9.ForeColor = System.Drawing.Color.White;
-			this.label9.Location = new System.Drawing.Point(240, 43);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(48, 45);
-			this.label9.TabIndex = 84;
-			this.label9.Text = "A";
-			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button7.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button7.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button7.ForeColor = System.Drawing.Color.White;
+			this.button7.Location = new System.Drawing.Point(133, 67);
+			this.button7.Name = "button7";
+			this.button7.Size = new System.Drawing.Size(45, 43);
+			this.button7.TabIndex = 6;
+			this.button7.Text = "A";
+			this.button7.UseVisualStyleBackColor = false;
 			// 
-			// label10
+			// button8
 			// 
-			this.label10.BackColor = System.Drawing.Color.DarkGreen;
-			this.label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label10.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label10.ForeColor = System.Drawing.Color.White;
-			this.label10.Location = new System.Drawing.Point(294, 93);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(48, 45);
-			this.label10.TabIndex = 91;
-			this.label10.Text = "A";
-			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button8.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button8.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button8.ForeColor = System.Drawing.Color.White;
+			this.button8.Location = new System.Drawing.Point(81, 67);
+			this.button8.Name = "button8";
+			this.button8.Size = new System.Drawing.Size(45, 43);
+			this.button8.TabIndex = 5;
+			this.button8.Text = "A";
+			this.button8.UseVisualStyleBackColor = false;
 			// 
-			// label11
+			// button9
 			// 
-			this.label11.BackColor = System.Drawing.Color.DarkGreen;
-			this.label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label11.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label11.ForeColor = System.Drawing.Color.White;
-			this.label11.Location = new System.Drawing.Point(240, 93);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(48, 45);
-			this.label11.TabIndex = 90;
-			this.label11.Text = "A";
-			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button9.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button9.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button9.ForeColor = System.Drawing.Color.White;
+			this.button9.Location = new System.Drawing.Point(29, 67);
+			this.button9.Name = "button9";
+			this.button9.Size = new System.Drawing.Size(45, 43);
+			this.button9.TabIndex = 4;
+			this.button9.Text = "A";
+			this.button9.UseVisualStyleBackColor = false;
 			// 
-			// label12
+			// button4
 			// 
-			this.label12.BackColor = System.Drawing.Color.DarkGreen;
-			this.label12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label12.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label12.ForeColor = System.Drawing.Color.White;
-			this.label12.Location = new System.Drawing.Point(186, 93);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(48, 45);
-			this.label12.TabIndex = 89;
-			this.label12.Text = "A";
-			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button4.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button4.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button4.ForeColor = System.Drawing.Color.White;
+			this.button4.Location = new System.Drawing.Point(185, 20);
+			this.button4.Name = "button4";
+			this.button4.Size = new System.Drawing.Size(45, 43);
+			this.button4.TabIndex = 3;
+			this.button4.Text = "A";
+			this.button4.UseVisualStyleBackColor = false;
 			// 
-			// label13
+			// button5
 			// 
-			this.label13.BackColor = System.Drawing.Color.DarkGreen;
-			this.label13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label13.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label13.ForeColor = System.Drawing.Color.White;
-			this.label13.Location = new System.Drawing.Point(132, 93);
-			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(48, 45);
-			this.label13.TabIndex = 88;
-			this.label13.Text = "A";
-			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button5.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button5.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button5.ForeColor = System.Drawing.Color.White;
+			this.button5.Location = new System.Drawing.Point(133, 20);
+			this.button5.Name = "button5";
+			this.button5.Size = new System.Drawing.Size(45, 43);
+			this.button5.TabIndex = 2;
+			this.button5.Text = "A";
+			this.button5.UseVisualStyleBackColor = false;
 			// 
-			// label14
+			// button3
 			// 
-			this.label14.BackColor = System.Drawing.Color.DarkGreen;
-			this.label14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label14.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label14.ForeColor = System.Drawing.Color.White;
-			this.label14.Location = new System.Drawing.Point(78, 93);
-			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(48, 45);
-			this.label14.TabIndex = 87;
-			this.label14.Text = "A";
-			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button3.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button3.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button3.ForeColor = System.Drawing.Color.White;
+			this.button3.Location = new System.Drawing.Point(81, 20);
+			this.button3.Name = "button3";
+			this.button3.Size = new System.Drawing.Size(45, 43);
+			this.button3.TabIndex = 1;
+			this.button3.Text = "A";
+			this.button3.UseVisualStyleBackColor = false;
 			// 
-			// label15
+			// button2
 			// 
-			this.label15.BackColor = System.Drawing.Color.DarkGreen;
-			this.label15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.label15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.label15.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label15.ForeColor = System.Drawing.Color.White;
-			this.label15.Location = new System.Drawing.Point(24, 93);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(48, 45);
-			this.label15.TabIndex = 86;
-			this.label15.Text = "A";
-			this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.button2.BackColor = System.Drawing.Color.MidnightBlue;
+			this.button2.Font = new System.Drawing.Font("Bodoni MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button2.ForeColor = System.Drawing.Color.White;
+			this.button2.Location = new System.Drawing.Point(29, 20);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(45, 43);
+			this.button2.TabIndex = 0;
+			this.button2.Text = "A";
+			this.button2.UseVisualStyleBackColor = false;
+			// 
+			// label20
+			// 
+			this.label20.BackColor = System.Drawing.Color.Transparent;
+			this.label20.Font = new System.Drawing.Font("Castellar", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label20.ForeColor = System.Drawing.Color.White;
+			this.label20.Location = new System.Drawing.Point(536, 157);
+			this.label20.Name = "label20";
+			this.label20.Size = new System.Drawing.Size(362, 23);
+			this.label20.TabIndex = 85;
+			this.label20.Text = "clue";
+			this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// button1
+			// 
+			this.button1.AutoSize = true;
+			this.button1.BackColor = System.Drawing.Color.DarkSlateBlue;
+			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.button1.Font = new System.Drawing.Font("Bodoni MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.ForeColor = System.Drawing.Color.White;
+			this.button1.Location = new System.Drawing.Point(669, 457);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(115, 29);
+			this.button1.TabIndex = 86;
+			this.button1.Text = "SKIP";
+			this.button1.UseVisualStyleBackColor = false;
 			// 
 			// picturepalette
 			// 
@@ -355,6 +417,8 @@ namespace final_project
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(934, 511);
+			this.Controls.Add(this.button1);
+			this.Controls.Add(this.label20);
 			this.Controls.Add(this.panel2);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.profile_icon);
@@ -366,26 +430,34 @@ namespace final_project
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.panel1.ResumeLayout(false);
+			this.panel1.PerformLayout();
 			this.panel2.ResumeLayout(false);
 			this.ResumeLayout(false);
+			this.PerformLayout();
 		}
-		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.Label label9;
-		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.Label label15;
-		private System.Windows.Forms.Label label14;
-		private System.Windows.Forms.Label label13;
-		private System.Windows.Forms.Label label12;
-		private System.Windows.Forms.Label label11;
-		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.Button button3;
+		private System.Windows.Forms.Button button5;
+		private System.Windows.Forms.Button button4;
+		private System.Windows.Forms.Button button9;
+		private System.Windows.Forms.Button button8;
+		private System.Windows.Forms.Button button7;
+		private System.Windows.Forms.Button button6;
+		private System.Windows.Forms.Button button13;
+		private System.Windows.Forms.Button button12;
+		private System.Windows.Forms.Button button11;
+		private System.Windows.Forms.Button button10;
+		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Label label20;
+		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.TextBox textBox4;
+		private System.Windows.Forms.TextBox textBox3;
+		private System.Windows.Forms.TextBox textBox7;
+		private System.Windows.Forms.TextBox textBox6;
+		private System.Windows.Forms.TextBox textBox5;
 		private System.Windows.Forms.Panel panel2;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Panel panel1;
-		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.PictureBox pictureBox5;
 		private System.Windows.Forms.Panel settings_icon;

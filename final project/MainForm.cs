@@ -11,8 +11,6 @@ namespace final_project
         int progress = 0;
         
         SoundPlayer player = new SoundPlayer(@"C:\Users\pc\Documents\SharpDevelop Projects\MOPB Stardust\final project\#0\bgmusic.wav");
-        
-        private bool isLoaded = false;
 
         public MainForm()
         {
@@ -29,7 +27,6 @@ namespace final_project
             
             panel1.Visible = false;
             progressBar1.Visible = true;
-            label1.Visible = true;
         }
         
         void Timer1Tick(object sender, EventArgs e)
@@ -38,44 +35,21 @@ namespace final_project
             if (progress > 100) progress = 100;
 
             progressBar1.Value = progress;
-            label1.Text = progress + "%";
 
             if (progress == 100)
             {
                 timer1.Stop();
-                label1.Visible = false;
                 progressBar1.Visible = false;
                 
                 panel1.Visible = true;
-                isLoaded = true;
             }
         }
                 
         void Panel1Click(object sender, EventArgs e)
         {
-            pick_avatar pa = new pick_avatar(this);
-            pa.Show();
+        	Games g = new Games();
+            g.Show();
             this.Hide();
-        }
-        
-        void Panel2Click(object sender, EventArgs e)
-        {
-            profile pf = new profile();
-            pf.Show();
-            this.Hide();
-        }
-        
-        void Panel3Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        public void ResetForm()
-        {
-            if (!isLoaded)
-            {
-                StartLoading();
-            }
         }
     }
 }

@@ -37,88 +37,94 @@ namespace final_project
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ah));
-			this.checkBox1 = new System.Windows.Forms.CheckBox();
-			this.checkBox2 = new System.Windows.Forms.CheckBox();
-			this.checkBox3 = new System.Windows.Forms.CheckBox();
-			this.checkBox4 = new System.Windows.Forms.CheckBox();
+			this.check_wave = new System.Windows.Forms.CheckBox();
+			this.check_mother = new System.Windows.Forms.CheckBox();
+			this.balloon = new System.Windows.Forms.CheckBox();
+			this.eiffel = new System.Windows.Forms.CheckBox();
 			this.check_starrynight = new System.Windows.Forms.CheckBox();
-			this.checkBox6 = new System.Windows.Forms.CheckBox();
-			this.checkBox7 = new System.Windows.Forms.CheckBox();
-			this.checkBox8 = new System.Windows.Forms.CheckBox();
-			this.checkBox10 = new System.Windows.Forms.CheckBox();
-			this.checkBox12 = new System.Windows.Forms.CheckBox();
-			this.panel1 = new System.Windows.Forms.Panel();
-			this.panel2 = new System.Windows.Forms.Panel();
-			this.panel3 = new System.Windows.Forms.Panel();
+			this.check_raven = new System.Windows.Forms.CheckBox();
+			this.check_egg = new System.Windows.Forms.CheckBox();
+			this.check_man = new System.Windows.Forms.CheckBox();
+			this.check_5 = new System.Windows.Forms.CheckBox();
+			this.abode = new System.Windows.Forms.CheckBox();
+			this.mother = new System.Windows.Forms.Panel();
+			this.wave = new System.Windows.Forms.Panel();
+			this.no5 = new System.Windows.Forms.Panel();
 			this.starrynight = new System.Windows.Forms.Panel();
-			this.panel5 = new System.Windows.Forms.Panel();
-			this.panel6 = new System.Windows.Forms.Panel();
-			this.panel7 = new System.Windows.Forms.Panel();
-			this.panel8 = new System.Windows.Forms.Panel();
-			this.panel9 = new System.Windows.Forms.Panel();
-			this.panel10 = new System.Windows.Forms.Panel();
-			this.panel11 = new System.Windows.Forms.Panel();
+			this.raven = new System.Windows.Forms.Panel();
+			this.tower = new System.Windows.Forms.Panel();
+			this.parachute = new System.Windows.Forms.Panel();
+			this.girl = new System.Windows.Forms.Panel();
+			this.man = new System.Windows.Forms.Panel();
+			this.egg = new System.Windows.Forms.Panel();
+			this.chaos = new System.Windows.Forms.Panel();
+			this.check_cute = new System.Windows.Forms.CheckBox();
+			this.group_trivia = new System.Windows.Forms.GroupBox();
+			this.trivia = new System.Windows.Forms.Label();
+			this.label1 = new System.Windows.Forms.Label();
+			this.button1 = new System.Windows.Forms.Button();
+			this.group_trivia.SuspendLayout();
 			this.SuspendLayout();
 			// 
-			// checkBox1
+			// check_wave
 			// 
-			this.checkBox1.AutoCheck = false;
-			this.checkBox1.AutoSize = true;
-			this.checkBox1.BackColor = System.Drawing.Color.Transparent;
-			this.checkBox1.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox1.ForeColor = System.Drawing.Color.White;
-			this.checkBox1.Location = new System.Drawing.Point(187, 436);
-			this.checkBox1.Name = "checkBox1";
-			this.checkBox1.Size = new System.Drawing.Size(171, 29);
-			this.checkBox1.TabIndex = 0;
-			this.checkBox1.Text = "The Great Wave off Kanagawa";
-			this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.checkBox1.UseVisualStyleBackColor = false;
+			this.check_wave.AutoCheck = false;
+			this.check_wave.AutoSize = true;
+			this.check_wave.BackColor = System.Drawing.Color.Transparent;
+			this.check_wave.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.check_wave.ForeColor = System.Drawing.Color.White;
+			this.check_wave.Location = new System.Drawing.Point(171, 436);
+			this.check_wave.Name = "check_wave";
+			this.check_wave.Size = new System.Drawing.Size(171, 29);
+			this.check_wave.TabIndex = 0;
+			this.check_wave.Text = "The Great Wave off Kanagawa";
+			this.check_wave.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.check_wave.UseVisualStyleBackColor = false;
 			// 
-			// checkBox2
+			// check_mother
 			// 
-			this.checkBox2.AutoCheck = false;
-			this.checkBox2.AutoSize = true;
-			this.checkBox2.BackColor = System.Drawing.Color.Transparent;
-			this.checkBox2.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox2.ForeColor = System.Drawing.Color.White;
-			this.checkBox2.Location = new System.Drawing.Point(191, 463);
-			this.checkBox2.Name = "checkBox2";
-			this.checkBox2.Size = new System.Drawing.Size(106, 29);
-			this.checkBox2.TabIndex = 1;
-			this.checkBox2.Text = "Migrant Mother";
-			this.checkBox2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.checkBox2.UseVisualStyleBackColor = false;
+			this.check_mother.AutoCheck = false;
+			this.check_mother.AutoSize = true;
+			this.check_mother.BackColor = System.Drawing.Color.Transparent;
+			this.check_mother.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.check_mother.ForeColor = System.Drawing.Color.White;
+			this.check_mother.Location = new System.Drawing.Point(155, 463);
+			this.check_mother.Name = "check_mother";
+			this.check_mother.Size = new System.Drawing.Size(106, 29);
+			this.check_mother.TabIndex = 1;
+			this.check_mother.Text = "Migrant Mother";
+			this.check_mother.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.check_mother.UseVisualStyleBackColor = false;
 			// 
-			// checkBox3
+			// balloon
 			// 
-			this.checkBox3.AutoCheck = false;
-			this.checkBox3.AutoSize = true;
-			this.checkBox3.BackColor = System.Drawing.Color.Transparent;
-			this.checkBox3.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox3.ForeColor = System.Drawing.Color.White;
-			this.checkBox3.Location = new System.Drawing.Point(293, 463);
-			this.checkBox3.Name = "checkBox3";
-			this.checkBox3.Size = new System.Drawing.Size(143, 29);
-			this.checkBox3.TabIndex = 3;
-			this.checkBox3.Text = "Girl with Balloon Mural";
-			this.checkBox3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.checkBox3.UseVisualStyleBackColor = false;
+			this.balloon.AutoCheck = false;
+			this.balloon.AutoSize = true;
+			this.balloon.BackColor = System.Drawing.Color.Transparent;
+			this.balloon.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.balloon.ForeColor = System.Drawing.Color.White;
+			this.balloon.Location = new System.Drawing.Point(260, 463);
+			this.balloon.Name = "balloon";
+			this.balloon.Size = new System.Drawing.Size(143, 29);
+			this.balloon.TabIndex = 3;
+			this.balloon.Text = "Girl with Balloon Mural";
+			this.balloon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.balloon.UseVisualStyleBackColor = false;
 			// 
-			// checkBox4
+			// eiffel
 			// 
-			this.checkBox4.AutoCheck = false;
-			this.checkBox4.AutoSize = true;
-			this.checkBox4.BackColor = System.Drawing.Color.Transparent;
-			this.checkBox4.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox4.ForeColor = System.Drawing.Color.White;
-			this.checkBox4.Location = new System.Drawing.Point(355, 436);
-			this.checkBox4.Name = "checkBox4";
-			this.checkBox4.Size = new System.Drawing.Size(87, 29);
-			this.checkBox4.TabIndex = 2;
-			this.checkBox4.Text = "Eiffel Tower";
-			this.checkBox4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.checkBox4.UseVisualStyleBackColor = false;
+			this.eiffel.AutoCheck = false;
+			this.eiffel.AutoSize = true;
+			this.eiffel.BackColor = System.Drawing.Color.Transparent;
+			this.eiffel.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.eiffel.ForeColor = System.Drawing.Color.White;
+			this.eiffel.Location = new System.Drawing.Point(342, 436);
+			this.eiffel.Name = "eiffel";
+			this.eiffel.Size = new System.Drawing.Size(87, 29);
+			this.eiffel.TabIndex = 2;
+			this.eiffel.Text = "Eiffel Tower";
+			this.eiffel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.eiffel.UseVisualStyleBackColor = false;
 			// 
 			// check_starrynight
 			// 
@@ -127,116 +133,118 @@ namespace final_project
 			this.check_starrynight.BackColor = System.Drawing.Color.Transparent;
 			this.check_starrynight.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.check_starrynight.ForeColor = System.Drawing.Color.White;
-			this.check_starrynight.Location = new System.Drawing.Point(568, 463);
+			this.check_starrynight.Location = new System.Drawing.Point(530, 463);
 			this.check_starrynight.Name = "check_starrynight";
 			this.check_starrynight.Size = new System.Drawing.Size(112, 29);
 			this.check_starrynight.TabIndex = 7;
 			this.check_starrynight.Text = " The Starry Night";
 			this.check_starrynight.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.check_starrynight.UseVisualStyleBackColor = false;
-			this.check_starrynight.CheckedChanged += new System.EventHandler(this.Check_starrynightCheckedChanged);
 			// 
-			// checkBox6
+			// check_raven
 			// 
-			this.checkBox6.AutoCheck = false;
-			this.checkBox6.AutoSize = true;
-			this.checkBox6.BackColor = System.Drawing.Color.Transparent;
-			this.checkBox6.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox6.ForeColor = System.Drawing.Color.White;
-			this.checkBox6.Location = new System.Drawing.Point(690, 463);
-			this.checkBox6.Name = "checkBox6";
-			this.checkBox6.Size = new System.Drawing.Size(59, 29);
-			this.checkBox6.TabIndex = 6;
-			this.checkBox6.Text = "Raven";
-			this.checkBox6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.checkBox6.UseVisualStyleBackColor = false;
+			this.check_raven.AutoCheck = false;
+			this.check_raven.AutoSize = true;
+			this.check_raven.BackColor = System.Drawing.Color.Transparent;
+			this.check_raven.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.check_raven.ForeColor = System.Drawing.Color.White;
+			this.check_raven.Location = new System.Drawing.Point(720, 463);
+			this.check_raven.Name = "check_raven";
+			this.check_raven.Size = new System.Drawing.Size(59, 29);
+			this.check_raven.TabIndex = 6;
+			this.check_raven.Text = "Raven";
+			this.check_raven.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.check_raven.UseVisualStyleBackColor = false;
 			// 
-			// checkBox7
+			// check_egg
 			// 
-			this.checkBox7.AutoCheck = false;
-			this.checkBox7.AutoSize = true;
-			this.checkBox7.BackColor = System.Drawing.Color.Transparent;
-			this.checkBox7.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox7.ForeColor = System.Drawing.Color.White;
-			this.checkBox7.Location = new System.Drawing.Point(622, 436);
-			this.checkBox7.Name = "checkBox7";
-			this.checkBox7.Size = new System.Drawing.Size(130, 29);
-			this.checkBox7.TabIndex = 5;
-			this.checkBox7.Text = "Intricate Fabergé Egg";
-			this.checkBox7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.checkBox7.UseVisualStyleBackColor = false;
+			this.check_egg.AutoCheck = false;
+			this.check_egg.AutoSize = true;
+			this.check_egg.BackColor = System.Drawing.Color.Transparent;
+			this.check_egg.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.check_egg.ForeColor = System.Drawing.Color.White;
+			this.check_egg.Location = new System.Drawing.Point(634, 436);
+			this.check_egg.Name = "check_egg";
+			this.check_egg.Size = new System.Drawing.Size(130, 29);
+			this.check_egg.TabIndex = 5;
+			this.check_egg.Text = "Intricate Fabergé Egg";
+			this.check_egg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.check_egg.UseVisualStyleBackColor = false;
 			// 
-			// checkBox8
+			// check_man
 			// 
-			this.checkBox8.AutoCheck = false;
-			this.checkBox8.AutoSize = true;
-			this.checkBox8.BackColor = System.Drawing.Color.Transparent;
-			this.checkBox8.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox8.ForeColor = System.Drawing.Color.White;
-			this.checkBox8.Location = new System.Drawing.Point(437, 436);
-			this.checkBox8.Name = "checkBox8";
-			this.checkBox8.Size = new System.Drawing.Size(99, 29);
-			this.checkBox8.TabIndex = 4;
-			this.checkBox8.Text = "Vitruvian Man";
-			this.checkBox8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.checkBox8.UseVisualStyleBackColor = false;
+			this.check_man.AutoCheck = false;
+			this.check_man.AutoSize = true;
+			this.check_man.BackColor = System.Drawing.Color.Transparent;
+			this.check_man.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.check_man.ForeColor = System.Drawing.Color.White;
+			this.check_man.Location = new System.Drawing.Point(429, 436);
+			this.check_man.Name = "check_man";
+			this.check_man.Size = new System.Drawing.Size(99, 29);
+			this.check_man.TabIndex = 4;
+			this.check_man.Text = "Vitruvian Man";
+			this.check_man.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.check_man.UseVisualStyleBackColor = false;
 			// 
-			// checkBox10
+			// check_5
 			// 
-			this.checkBox10.AutoCheck = false;
-			this.checkBox10.AutoSize = true;
-			this.checkBox10.BackColor = System.Drawing.Color.Transparent;
-			this.checkBox10.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox10.ForeColor = System.Drawing.Color.White;
-			this.checkBox10.Location = new System.Drawing.Point(535, 435);
-			this.checkBox10.Name = "checkBox10";
-			this.checkBox10.Size = new System.Drawing.Size(106, 29);
-			this.checkBox10.TabIndex = 10;
-			this.checkBox10.Text = "Symphony No.5";
-			this.checkBox10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.checkBox10.UseVisualStyleBackColor = false;
+			this.check_5.AutoCheck = false;
+			this.check_5.AutoSize = true;
+			this.check_5.BackColor = System.Drawing.Color.Transparent;
+			this.check_5.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.check_5.ForeColor = System.Drawing.Color.White;
+			this.check_5.Location = new System.Drawing.Point(528, 436);
+			this.check_5.Name = "check_5";
+			this.check_5.Size = new System.Drawing.Size(106, 29);
+			this.check_5.TabIndex = 10;
+			this.check_5.Text = "Symphony No.5";
+			this.check_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.check_5.UseVisualStyleBackColor = false;
 			// 
-			// checkBox12
+			// abode
 			// 
-			this.checkBox12.AutoCheck = false;
-			this.checkBox12.AutoSize = true;
-			this.checkBox12.BackColor = System.Drawing.Color.Transparent;
-			this.checkBox12.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.checkBox12.ForeColor = System.Drawing.Color.White;
-			this.checkBox12.Location = new System.Drawing.Point(430, 463);
-			this.checkBox12.Name = "checkBox12";
-			this.checkBox12.Size = new System.Drawing.Size(127, 29);
-			this.checkBox12.TabIndex = 8;
-			this.checkBox12.Text = "The Abode of Chaos";
-			this.checkBox12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.checkBox12.UseVisualStyleBackColor = false;
+			this.abode.AutoCheck = false;
+			this.abode.AutoSize = true;
+			this.abode.BackColor = System.Drawing.Color.Transparent;
+			this.abode.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.abode.ForeColor = System.Drawing.Color.White;
+			this.abode.Location = new System.Drawing.Point(403, 463);
+			this.abode.Name = "abode";
+			this.abode.Size = new System.Drawing.Size(127, 29);
+			this.abode.TabIndex = 8;
+			this.abode.Text = "The Abode of Chaos";
+			this.abode.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.abode.UseVisualStyleBackColor = false;
 			// 
-			// panel1
+			// mother
 			// 
-			this.panel1.BackColor = System.Drawing.Color.Transparent;
-			this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.panel1.Location = new System.Drawing.Point(160, 200);
-			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(50, 77);
-			this.panel1.TabIndex = 11;
+			this.mother.BackColor = System.Drawing.Color.Transparent;
+			this.mother.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.mother.Location = new System.Drawing.Point(160, 200);
+			this.mother.Name = "mother";
+			this.mother.Size = new System.Drawing.Size(50, 77);
+			this.mother.TabIndex = 11;
+			this.mother.Click += new System.EventHandler(this.MotherClick);
 			// 
-			// panel2
+			// wave
 			// 
-			this.panel2.BackColor = System.Drawing.Color.Transparent;
-			this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.panel2.Location = new System.Drawing.Point(354, 289);
-			this.panel2.Name = "panel2";
-			this.panel2.Size = new System.Drawing.Size(90, 77);
-			this.panel2.TabIndex = 12;
+			this.wave.BackColor = System.Drawing.Color.Transparent;
+			this.wave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.wave.Location = new System.Drawing.Point(354, 289);
+			this.wave.Name = "wave";
+			this.wave.Size = new System.Drawing.Size(90, 77);
+			this.wave.TabIndex = 12;
+			this.wave.Click += new System.EventHandler(this.WaveClick);
 			// 
-			// panel3
+			// no5
 			// 
-			this.panel3.BackColor = System.Drawing.Color.Transparent;
-			this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.panel3.Location = new System.Drawing.Point(191, 370);
-			this.panel3.Name = "panel3";
-			this.panel3.Size = new System.Drawing.Size(106, 60);
-			this.panel3.TabIndex = 13;
+			this.no5.BackColor = System.Drawing.Color.Transparent;
+			this.no5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.no5.Location = new System.Drawing.Point(191, 370);
+			this.no5.Name = "no5";
+			this.no5.Size = new System.Drawing.Size(106, 60);
+			this.no5.TabIndex = 13;
+			this.no5.Click += new System.EventHandler(this.No5Click);
 			// 
 			// starrynight
 			// 
@@ -248,68 +256,140 @@ namespace final_project
 			this.starrynight.TabIndex = 14;
 			this.starrynight.Click += new System.EventHandler(this.StarrynightClick);
 			// 
-			// panel5
+			// raven
 			// 
-			this.panel5.BackColor = System.Drawing.Color.Transparent;
-			this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.panel5.Location = new System.Drawing.Point(746, 42);
-			this.panel5.Name = "panel5";
-			this.panel5.Size = new System.Drawing.Size(70, 61);
-			this.panel5.TabIndex = 13;
+			this.raven.BackColor = System.Drawing.Color.Transparent;
+			this.raven.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.raven.Location = new System.Drawing.Point(746, 38);
+			this.raven.Name = "raven";
+			this.raven.Size = new System.Drawing.Size(70, 61);
+			this.raven.TabIndex = 13;
+			this.raven.Click += new System.EventHandler(this.RavenClick);
 			// 
-			// panel6
+			// tower
 			// 
-			this.panel6.BackColor = System.Drawing.Color.Transparent;
-			this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.panel6.Location = new System.Drawing.Point(619, 85);
-			this.panel6.Name = "panel6";
-			this.panel6.Size = new System.Drawing.Size(82, 164);
-			this.panel6.TabIndex = 14;
+			this.tower.BackColor = System.Drawing.Color.Transparent;
+			this.tower.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.tower.Location = new System.Drawing.Point(619, 85);
+			this.tower.Name = "tower";
+			this.tower.Size = new System.Drawing.Size(82, 164);
+			this.tower.TabIndex = 14;
+			this.tower.Click += new System.EventHandler(this.TowerClick);
 			// 
-			// panel7
+			// parachute
 			// 
-			this.panel7.BackColor = System.Drawing.Color.Transparent;
-			this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.panel7.Location = new System.Drawing.Point(235, 271);
-			this.panel7.Name = "panel7";
-			this.panel7.Size = new System.Drawing.Size(86, 93);
-			this.panel7.TabIndex = 15;
+			this.parachute.BackColor = System.Drawing.Color.Transparent;
+			this.parachute.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.parachute.Location = new System.Drawing.Point(718, 178);
+			this.parachute.Name = "parachute";
+			this.parachute.Size = new System.Drawing.Size(34, 43);
+			this.parachute.TabIndex = 15;
+			this.parachute.Click += new System.EventHandler(this.ParachuteClick);
 			// 
-			// panel8
+			// girl
 			// 
-			this.panel8.BackColor = System.Drawing.Color.Transparent;
-			this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.panel8.Location = new System.Drawing.Point(836, 257);
-			this.panel8.Name = "panel8";
-			this.panel8.Size = new System.Drawing.Size(77, 97);
-			this.panel8.TabIndex = 16;
+			this.girl.BackColor = System.Drawing.Color.Transparent;
+			this.girl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.girl.Location = new System.Drawing.Point(836, 257);
+			this.girl.Name = "girl";
+			this.girl.Size = new System.Drawing.Size(77, 97);
+			this.girl.TabIndex = 16;
+			this.girl.Click += new System.EventHandler(this.GirlClick);
 			// 
-			// panel9
+			// man
 			// 
-			this.panel9.BackColor = System.Drawing.Color.Transparent;
-			this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.panel9.Location = new System.Drawing.Point(108, 289);
-			this.panel9.Name = "panel9";
-			this.panel9.Size = new System.Drawing.Size(77, 94);
-			this.panel9.TabIndex = 16;
+			this.man.BackColor = System.Drawing.Color.Transparent;
+			this.man.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.man.Location = new System.Drawing.Point(108, 289);
+			this.man.Name = "man";
+			this.man.Size = new System.Drawing.Size(77, 94);
+			this.man.TabIndex = 16;
+			this.man.Click += new System.EventHandler(this.ManClick);
 			// 
-			// panel10
+			// egg
 			// 
-			this.panel10.BackColor = System.Drawing.Color.Transparent;
-			this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.panel10.Location = new System.Drawing.Point(198, 309);
-			this.panel10.Name = "panel10";
-			this.panel10.Size = new System.Drawing.Size(35, 51);
-			this.panel10.TabIndex = 16;
+			this.egg.BackColor = System.Drawing.Color.Transparent;
+			this.egg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.egg.Location = new System.Drawing.Point(198, 309);
+			this.egg.Name = "egg";
+			this.egg.Size = new System.Drawing.Size(35, 51);
+			this.egg.TabIndex = 16;
+			this.egg.Click += new System.EventHandler(this.EggClick);
 			// 
-			// panel11
+			// chaos
 			// 
-			this.panel11.BackColor = System.Drawing.Color.Transparent;
-			this.panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.panel11.Location = new System.Drawing.Point(301, 46);
-			this.panel11.Name = "panel11";
-			this.panel11.Size = new System.Drawing.Size(90, 61);
-			this.panel11.TabIndex = 14;
+			this.chaos.BackColor = System.Drawing.Color.Transparent;
+			this.chaos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.chaos.Location = new System.Drawing.Point(301, 46);
+			this.chaos.Name = "chaos";
+			this.chaos.Size = new System.Drawing.Size(90, 61);
+			this.chaos.TabIndex = 14;
+			this.chaos.Click += new System.EventHandler(this.ChaosClick);
+			// 
+			// check_cute
+			// 
+			this.check_cute.AutoCheck = false;
+			this.check_cute.AutoSize = true;
+			this.check_cute.BackColor = System.Drawing.Color.Transparent;
+			this.check_cute.Font = new System.Drawing.Font("Javanese Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.check_cute.ForeColor = System.Drawing.Color.White;
+			this.check_cute.Location = new System.Drawing.Point(642, 463);
+			this.check_cute.Name = "check_cute";
+			this.check_cute.Size = new System.Drawing.Size(78, 29);
+			this.check_cute.TabIndex = 17;
+			this.check_cute.Text = "Parachute";
+			this.check_cute.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.check_cute.UseVisualStyleBackColor = false;
+			// 
+			// group_trivia
+			// 
+			this.group_trivia.BackColor = System.Drawing.Color.Khaki;
+			this.group_trivia.Controls.Add(this.trivia);
+			this.group_trivia.Controls.Add(this.label1);
+			this.group_trivia.Controls.Add(this.button1);
+			this.group_trivia.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.group_trivia.Font = new System.Drawing.Font("Maiandra GD", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.group_trivia.Location = new System.Drawing.Point(354, 153);
+			this.group_trivia.Name = "group_trivia";
+			this.group_trivia.Size = new System.Drawing.Size(242, 252);
+			this.group_trivia.TabIndex = 18;
+			this.group_trivia.TabStop = false;
+			this.group_trivia.Text = "Congratulations!";
+			// 
+			// trivia
+			// 
+			this.trivia.Font = new System.Drawing.Font("Maiandra GD", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.trivia.Location = new System.Drawing.Point(29, 74);
+			this.trivia.Name = "trivia";
+			this.trivia.Size = new System.Drawing.Size(184, 139);
+			this.trivia.TabIndex = 3;
+			this.trivia.Text = ".";
+			this.trivia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label1
+			// 
+			this.label1.Font = new System.Drawing.Font("Maiandra GD", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.ForeColor = System.Drawing.Color.DarkGreen;
+			this.label1.Location = new System.Drawing.Point(24, 30);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(194, 43);
+			this.label1.TabIndex = 2;
+			this.label1.Text = "You found";
+			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// button1
+			// 
+			this.button1.AutoSize = true;
+			this.button1.BackColor = System.Drawing.Color.Tan;
+			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.button1.Font = new System.Drawing.Font("Maiandra GD", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.Location = new System.Drawing.Point(84, 221);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(74, 25);
+			this.button1.TabIndex = 1;
+			this.button1.Text = "Continue";
+			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// ah
 			// 
@@ -318,52 +398,65 @@ namespace final_project
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(934, 511);
-			this.Controls.Add(this.panel11);
-			this.Controls.Add(this.panel10);
-			this.Controls.Add(this.panel9);
-			this.Controls.Add(this.panel8);
-			this.Controls.Add(this.panel7);
-			this.Controls.Add(this.panel6);
-			this.Controls.Add(this.panel5);
+			this.Controls.Add(this.group_trivia);
+			this.Controls.Add(this.check_cute);
+			this.Controls.Add(this.chaos);
+			this.Controls.Add(this.egg);
+			this.Controls.Add(this.man);
+			this.Controls.Add(this.girl);
+			this.Controls.Add(this.parachute);
+			this.Controls.Add(this.tower);
+			this.Controls.Add(this.raven);
 			this.Controls.Add(this.starrynight);
-			this.Controls.Add(this.panel3);
-			this.Controls.Add(this.panel2);
-			this.Controls.Add(this.panel1);
-			this.Controls.Add(this.checkBox10);
-			this.Controls.Add(this.checkBox12);
+			this.Controls.Add(this.no5);
+			this.Controls.Add(this.wave);
+			this.Controls.Add(this.mother);
+			this.Controls.Add(this.check_5);
+			this.Controls.Add(this.abode);
 			this.Controls.Add(this.check_starrynight);
-			this.Controls.Add(this.checkBox6);
-			this.Controls.Add(this.checkBox7);
-			this.Controls.Add(this.checkBox8);
-			this.Controls.Add(this.checkBox3);
-			this.Controls.Add(this.checkBox4);
-			this.Controls.Add(this.checkBox2);
-			this.Controls.Add(this.checkBox1);
+			this.Controls.Add(this.check_raven);
+			this.Controls.Add(this.check_egg);
+			this.Controls.Add(this.check_man);
+			this.Controls.Add(this.balloon);
+			this.Controls.Add(this.eiffel);
+			this.Controls.Add(this.check_mother);
+			this.Controls.Add(this.check_wave);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "ah";
 			this.Text = "ah";
+			this.Load += new System.EventHandler(this.AhLoad);
+			this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.AhMouseDown);
+			this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.AhMouseUp);
+			this.group_trivia.ResumeLayout(false);
+			this.group_trivia.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
-		private System.Windows.Forms.Panel panel11;
-		private System.Windows.Forms.Panel panel10;
-		private System.Windows.Forms.Panel panel9;
-		private System.Windows.Forms.Panel panel8;
-		private System.Windows.Forms.Panel panel7;
-		private System.Windows.Forms.Panel panel6;
-		private System.Windows.Forms.Panel panel5;
+		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label trivia;
+		private System.Windows.Forms.GroupBox group_trivia;
+		private System.Windows.Forms.CheckBox check_cute;
+		private System.Windows.Forms.Panel chaos;
+		private System.Windows.Forms.Panel egg;
+		private System.Windows.Forms.Panel man;
+		private System.Windows.Forms.Panel girl;
+		private System.Windows.Forms.Panel parachute;
+		private System.Windows.Forms.Panel tower;
+		private System.Windows.Forms.Panel raven;
 		private System.Windows.Forms.Panel starrynight;
-		private System.Windows.Forms.Panel panel3;
-		private System.Windows.Forms.Panel panel2;
-		private System.Windows.Forms.Panel panel1;
-		private System.Windows.Forms.CheckBox checkBox12;
-		private System.Windows.Forms.CheckBox checkBox10;
-		private System.Windows.Forms.CheckBox checkBox8;
-		private System.Windows.Forms.CheckBox checkBox7;
-		private System.Windows.Forms.CheckBox checkBox6;
+		private System.Windows.Forms.Panel no5;
+		private System.Windows.Forms.Panel wave;
+		private System.Windows.Forms.Panel mother;
+		private System.Windows.Forms.CheckBox abode;
+		private System.Windows.Forms.CheckBox check_5;
+		private System.Windows.Forms.CheckBox check_man;
+		private System.Windows.Forms.CheckBox check_egg;
+		private System.Windows.Forms.CheckBox check_raven;
 		private System.Windows.Forms.CheckBox check_starrynight;
-		private System.Windows.Forms.CheckBox checkBox4;
-		private System.Windows.Forms.CheckBox checkBox3;
-		private System.Windows.Forms.CheckBox checkBox2;
-		private System.Windows.Forms.CheckBox checkBox1;
+		private System.Windows.Forms.CheckBox eiffel;
+		private System.Windows.Forms.CheckBox balloon;
+		private System.Windows.Forms.CheckBox check_mother;
+		private System.Windows.Forms.CheckBox check_wave;
 	}
 }

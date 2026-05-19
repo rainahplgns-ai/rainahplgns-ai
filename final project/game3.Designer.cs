@@ -60,6 +60,7 @@ namespace final_project
 			this.pictureBox5.Size = new System.Drawing.Size(131, 54);
 			this.pictureBox5.TabIndex = 18;
 			this.pictureBox5.TabStop = false;
+			this.pictureBox5.Click += new System.EventHandler(this.PictureBox5Click);
 			// 
 			// game1_ins
 			// 
@@ -82,6 +83,7 @@ namespace final_project
 			this.panel4.Name = "panel4";
 			this.panel4.Size = new System.Drawing.Size(231, 36);
 			this.panel4.TabIndex = 2;
+			this.panel4.Click += new System.EventHandler(this.Panel4Click);
 			// 
 			// panel3
 			// 
@@ -138,6 +140,7 @@ namespace final_project
 			this.Controls.Add(this.game1_ins);
 			this.Controls.Add(this.pictureBox1);
 			this.DoubleBuffered = true;
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "game3";
 			this.Text = "game3";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

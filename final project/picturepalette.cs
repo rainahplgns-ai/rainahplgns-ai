@@ -1,11 +1,4 @@
-﻿/*
- * Created by SharpDevelop.
- * User: pc
- * Date: 5/15/2026
- * Time: 10:41 AM
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
+﻿
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -27,6 +20,11 @@ namespace final_project
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		
+		void Panel2Paint(object sender, PaintEventArgs e)
+		{
+			
 		}
 	}
 }

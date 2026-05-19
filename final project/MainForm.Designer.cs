@@ -38,24 +38,10 @@ namespace final_project
 		{
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-			this.label1 = new System.Windows.Forms.Label();
 			this.progressBar1 = new System.Windows.Forms.ProgressBar();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.SuspendLayout();
-			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.BackColor = System.Drawing.Color.Transparent;
-			this.label1.Font = new System.Drawing.Font("Kristen ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.ForeColor = System.Drawing.Color.White;
-			this.label1.Location = new System.Drawing.Point(452, 417);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(30, 29);
-			this.label1.TabIndex = 3;
-			this.label1.Text = "%";
-			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// progressBar1
 			// 
@@ -89,16 +75,13 @@ namespace final_project
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(934, 511);
 			this.Controls.Add(this.panel1);
-			this.Controls.Add(this.label1);
 			this.Controls.Add(this.progressBar1);
 			this.Name = "MainForm";
 			this.Text = "final project";
 			this.ResumeLayout(false);
-			this.PerformLayout();
 		}
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Timer timer1;
 		private System.Windows.Forms.ProgressBar progressBar1;
-		private System.Windows.Forms.Label label1;
 	}
 }

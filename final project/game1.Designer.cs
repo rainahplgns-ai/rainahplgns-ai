@@ -143,6 +143,7 @@ namespace final_project
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.pictureBox5);
 			this.DoubleBuffered = true;
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "game1";
 			this.Text = "game1";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
